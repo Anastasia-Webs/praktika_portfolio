@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио | Главная</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
+
 <body>
-    
+
+    <nav>
+        <div class="container">
+            <div class="logo">Портфолио</div>
+            <ul>
+                <li><a href="index.html" class="active">Обо мне</a></li>
+                <li><a href="projects.html">Работы</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-content">
+            <img src="src/img/images.png" alt="Фото профиля" class="avatar">
+            <h1>Галина Анастасия Ильдаровна</h1>
+            <p class="subtitle">Специальность 09.02.07 Информационные системы и программирование</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="info-block">
+            <h2>Обучение и компетенции</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Технологии</h3>
+                    <p>HTML/CSS, Git, Figma, Python, C#, SQL. Чистый код, адаптивная верстка.</p>
+                </div>
+                <div class="card">
+                    <h3>Направление</h3>
+                    <p>Разработчик веб и мультимедийных приложений.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-block">
+            <h2>Дополнительные навыки</h2>
+            <ul>
+                <li><strong>Творческая сфера приоритет:</strong> создаю игровые ассеты (спрайты, иконки,
+                    интерфейсные элементы) и работаю с визуальным стилем.</li>
+                <li><strong>Нарратив:</strong> строю диалоговые деревья и сюжетные ветки, держу единый тон и темп
+                    повествования; есть опыт публикаций на иностранную аудиторию (~3К прочтений).</li>
+                <li><strong>Личный проект:</strong> визуальная новелла; стадия разработки; материалы закрыты из
+                    соображений авторского права.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
